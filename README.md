@@ -1,1 +1,84 @@
-.
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil Pessoal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center p-5">
+        <h1>Oi, Eu sou o Rafael</h1>
+        <p>Desenvolvedor apaixonado por criar soluções incríveis para a web.</p>
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <section class="text-center my-5">
+        <img src="https://media.discordapp.net/attachments/997358310812569603/1347989854352310414/retouch_2025030814462573.jpg?ex=67f60aa1&is=67f4b921&hm=90c206f5a11b551ef0934e172478b22691f850eace9be62ac7932c4daa3ccc1f&=&format=webp&width=873&height=873" 
+        alt="Foto de Perfil de Rafael" class="rounded-circle" width="150">
+        <p class="mt-3">Sou o Rafael Travain. Crio soluções criativas, funcionais e sempre busco aprender mais sobre desenvolvimento e design. Vou adorar compartilhar um pouco sobre minhas habilidades e projetos com você.</p>
+    </section>
+
+    <!-- Seção de Habilidades -->
+    <section class="text-center bg-light py-5">
+        <h2>Minhas Habilidades</h2>
+        <div class="row">
+            <div class="col-4">
+                <h5>HTML</h5>
+                <p>Estruturo páginas web de forma organizada e semântica, criando a base para todos os projetos.</p>
+            </div>
+            <div class="col-4">
+                <h5>CSS</h5>
+                <p>Transformo o visual das páginas, garantindo que elas sejam bonitas, funcionais e responsivas.</p>
+            </div>
+            <div class="col-4">
+                <h5>JavaScript</h5>
+                <p>Dou vida e interatividade às páginas, criando experiências dinâmicas e envolventes para o usuário.</p>
+            </div>
+            <div class="col-4">
+                <h5>Photoshop</h5>
+                <p>Crio e edito imagens para melhorar a apresentação visual de projetos e campanhas.</p>
+            </div>
+            <div class="col-4">
+                <h5>Lightroom</h5>
+                <p>Realizo edições e correções em fotos para destacar sua beleza e trazer um toque profissional.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de Projetos -->
+    <section class="my-5 text-center">
+        <h2>Alguns dos Meus Projetos</h2>
+        <div class="row">
+            <div class="col-4 mb-3">
+                <img src="https://media.discordapp.net/attachments/997358310812569603/1311732404280627290/17328088049591x_1-1.jpg?ex=67f5f93f&is=67f4a7bf&hm=ed7f5551715e7089a396eb4e1329541455e1fa05b0ed339630ed3fa4bd273a83&=&format=webp&width=873&height=873" 
+                alt="Projeto 1: Banner para jogos" class="img-fluid">
+                <p class="mt-2">Banner para campanhas de jogos.</p>
+            </div>
+            <div class="col-4 mb-3">
+                <img src="https://media.discordapp.net/attachments/997358310812569603/1356746063486390323/Post_do_instagram_encomendas_de_pascoa_ultimos_dias_moderno_rosa_e_marrom.jpg?ex=67f6417c&is=67f4effc&hm=cb62556941091aeaf846afd450cb4f2600f08e7488ecc5a95ce566bdb4b2f61d&=&format=webp&width=698&height=873" 
+                alt="Projeto 2: Post de Páscoa" class="img-fluid">
+                <p class="mt-2">Post para redes sociais sobre promoções de Páscoa.</p>
+            </div>
+            <div class="col-4 mb-3">
+                <img src="https://media.discordapp.net/attachments/997358310812569603/1261000807420264529/finalcampeonatoinstagram.png?ex=67f5fbc4&is=67f4aa44&hm=3abff1b9a2a78210137a35150a73a8eabcf71800851f469c4b1d9be8e3c1e1bc&=&format=webp&quality=lossless&width=769&height=769" 
+                alt="Projeto 3: Campanha de Campeonato" class="img-fluid">
+                <p class="mt-2">Banner para campeonato no Instagram.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Entre em contato: <a href="mailto:rafatravain@gmail.com" class="text-white">rafatravain@gmail.com</a></p>
+        <p>
+            <a href="https://www.instagram.com/rafaelnoxi_?igsh=MWY4dDdwbXJucHNpMA==" class="text-white">Me encontre no Instagram</a> | 
+            <a href="https://github.com/rafaelnoxi" class="text-white">Meu GitHub</a>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
